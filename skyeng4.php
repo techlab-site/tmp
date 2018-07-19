@@ -5,8 +5,6 @@ Class Math
 {    
     static public function add (string $a, string $b)
     {
-        $sum = '';
-
         do {
             $aLen = strlen($a);
             $bLen = strlen($b);
