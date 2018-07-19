@@ -24,6 +24,10 @@ class DecoratorManager extends DataProvider
         $this->cache = $cache;
     }
 
+    
+    /**
+     * @param LoggerInterface $logger
+     */
     public function setLogger(LoggerInterface $logger)
     {
         $this->logger = $logger;
