@@ -12,7 +12,7 @@ class DataProvider
      * @param string $user
      * @param string $password
      */
-    public function __construct($host, $user, $password)
+    public function __construct(string $host, string $user, string $password)
     {
         $this->host = $host;
         $this->user = $user;
