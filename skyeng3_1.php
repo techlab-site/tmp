@@ -1,5 +1,4 @@
 <?php
-
 namespace src\Integration;
 
 class DataProvider
