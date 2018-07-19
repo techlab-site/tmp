@@ -62,7 +62,12 @@ class DecoratorManager extends DataProvider
         return [];
     }
 
-    private function getCacheKey(array $input)
+    /**
+     * @param array $input
+     *
+     * @return string
+     */
+    private function getCacheKey(array $input) : string
     {
         ksort($input);
         return json_encode($input);
